@@ -9,28 +9,46 @@ An analysis of six different machine learning models (RandomOverSampler, SMOTE, 
 Accuracy scores and classification reports for all six models.
 
 -RandomOverSampler
--low or less than satisfactory accuracy score [!ros_acc_score](https://github.com/AmairaniR/Credit_Risk_Analysis/blob/main/images/ros_acc_score.png) 
--low recall score in both high and low risk categories [!ros_classification_report](https://github.com/AmairaniR/Credit_Risk_Analysis/blob/main/images/ros_classification_report.png)
+
+-low or less than satisfactory accuracy score ![ros_acc_score](https://github.com/AmairaniR/Credit_Risk_Analysis/blob/main/images/ros_acc_score.png) 
+
+-low recall score in both high and low risk categories ![ros_classification_report](https://github.com/AmairaniR/Credit_Risk_Analysis/blob/main/images/ros_classification_report.png)
+
 
 -SMOTE
--low or less than satisfactory accuracy score [!smote_acc_score](https://github.com/AmairaniR/Credit_Risk_Analysis/blob/main/images/smote_acc_score.png)
--slightly higher recall score in both high and low risk categories compared to the RandomOverSampler model but it is still insufficient for detecting high credit card risk [!smote_classification_report](https://github.com/AmairaniR/Credit_Risk_Analysis/blob/main/images/smote_classification_report.png)
+
+-low or less than satisfactory accuracy score ![smote_acc_score](https://github.com/AmairaniR/Credit_Risk_Analysis/blob/main/images/smote_acc_score.png)
+
+-slightly higher recall score in both high and low risk categories compared to the RandomOverSampler model but it is still insufficient for detecting high credit card risk ![smote_classification_report](https://github.com/AmairaniR/Credit_Risk_Analysis/blob/main/images/smote_classification_report.png)
+
 
 -ClusterCentroids
--lowest accuracy score of all the models [!cc_acc_score](https://github.com/AmairaniR/Credit_Risk_Analysis/blob/main/images/cc_acc_score.png)
--the only model where the low-risk recall was lower than the high-risk recall but both were still low and insufficient [!cc_classification_report](https://github.com/AmairaniR/Credit_Risk_Analysis/blob/main/images/cc_classification_report.png)
+
+-lowest accuracy score of all the models ![cc_acc_score](https://github.com/AmairaniR/Credit_Risk_Analysis/blob/main/images/cc_acc_score.png)
+
+-the only model where the low-risk recall was lower than the high-risk recall but both were still low and insufficient ![cc_classification_report](https://github.com/AmairaniR/Credit_Risk_Analysis/blob/main/images/cc_classification_report.png)
+
 
 -SMOTEENN
--low accuracy score, comprable to that of the oversampling models [!smoteenn_acc_score](https://github.com/AmairaniR/Credit_Risk_Analysis/blob/main/images/smoteenn_acc_score.png)
--recall scores are also similar to the oversampling models [!smoteenn_classification_report](https://github.com/AmairaniR/Credit_Risk_Analysis/blob/main/images/smoteenn_classification_report.png)
+
+-low accuracy score, comprable to that of the oversampling models ![smoteenn_acc_score](https://github.com/AmairaniR/Credit_Risk_Analysis/blob/main/images/smoteenn_acc_score.png)
+
+-recall scores are also similar to the oversampling models ![smoteenn_classification_report](https://github.com/AmairaniR/Credit_Risk_Analysis/blob/main/images/smoteenn_classification_report.png)
+
 
 -BalancedRandomForestClassifier
--second highest accuracy score of all the models [!brfc_acc_score](https://github.com/AmairaniR/Credit_Risk_Analysis/blob/main/images/rfc_acc_score.png)
--increased low-risk recall score, high-risk recall score similar to that of oversampling, SMOTEENN models [!brfc_acc_score](https://github.com/AmairaniR/Credit_Risk_Analysis/blob/main/images/rfc_classification_score.png)
+
+-second highest accuracy score of all the models ![brfc_acc_score](https://github.com/AmairaniR/Credit_Risk_Analysis/blob/main/images/rfc_acc_score.png)
+
+-increased low-risk recall score, high-risk recall score similar to that of oversampling, SMOTEENN models ![brfc_acc_score](https://github.com/AmairaniR/Credit_Risk_Analysis/blob/main/images/rfc_classification_score.png)
+
 
 -EasyEnsembleClassifier
--highest accuracy score [!eec_acc_score](https://github.com/AmairaniR/Credit_Risk_Analysis/blob/main/images/eec_acc_score.png)
--highest recall scores in both categories [!ecc_acc_score](https://github.com/AmairaniR/Credit_Risk_Analysis/blob/main/images/eec_classification_report.png)
+
+-highest accuracy score ![eec_acc_score](https://github.com/AmairaniR/Credit_Risk_Analysis/blob/main/images/eec_acc_score.png)
+
+-highest recall scores in both categories ![ecc_acc_score](https://github.com/AmairaniR/Credit_Risk_Analysis/blob/main/images/eec_classification_report.png)
+
 
 ## Summary
 
